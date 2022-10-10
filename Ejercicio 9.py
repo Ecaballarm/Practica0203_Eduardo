@@ -4,7 +4,6 @@
 # Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
 
 fecha = input("Introduce tu fecha de nacimiento en formato dd/mm/aaaa: \n")
-dia = fecha[:fecha.find("\")]
 print("Dia", fecha[:2])
 print("Mes", fecha[3:5])
 print("Año", fecha[6:])
